@@ -1,0 +1,42 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  margin: auto;
+  background-image: linear-gradient(orange, red);
+}
+.contenitore{
+  height: 400px;
+  width: 700px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background-size: cover;
+  border-top: 2px solid darkred;
+  border-bottom: 2px solid darkred;
+  border-right: 4px solid darkred;
+  border-left: 4px solid darkred;
+}
+.uno{
+  background-image: url('img/terra.jpg');
+}
+.due{
+  background-image: url('img/namek.jpg');
+}
+.tre{
+  background-image: url('img/snake.jpg');
+}
+.nome{
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 30px;
+font-family: monospace;
+padding: 20px;
+background: rgba(255,0,0,0.5);
+border: 1px solid darkred;
+}
+footer{
+text-align: center;
+background: lightcoral;
+}
