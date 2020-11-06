@@ -30,11 +30,12 @@ position:absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-font-size: 30px;
+font-size: 80px;
+width: 99%;
+text-shadow: 2px 2px black;
 font-family: monospace;
-padding: 20px;
-background: rgba(255,0,0,0.5);
-border: 1px solid darkred;
+background: rgba(121, 118, 103, 0.5);
+border: 2px solid green;
 }
 footer{
 text-align: center;
