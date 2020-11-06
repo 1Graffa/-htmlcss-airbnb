@@ -7,7 +7,6 @@
 .contenitore{
   height: 400px;
   width: 700px;
-  text-align: center;
   position: relative;
   color: white;
   background-size: cover;
@@ -18,27 +17,29 @@
   border-left: 4px solid white;
 }
 .uno{
-  background-image: url('img/terra.jpg');
+  background-image: url('../img/terra.jpg');
 }
 .due{
-  background-image: url('img/namek.jpg');
+  background-image: url('../img/namek.jpg');
 }
 .tre{
-  background-image: url('img/snake.jpg');
+  background-image: url('../img/snake.jpg');
+}
+.layover{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(121, 118, 103, 0.6);
 }
 .nome{
-position: absolute;
-/* top: 50%;
-left: 50%;
-transform: translate(-50%, -50%); */
 font-size: 80px;
 width: 100%;
 height: 100%;
 text-shadow: 2px 2px black;
 font-family: monospace;
-background: rgba(121, 118, 103, 0.6);
 }
-.nome:hover{
+.nome:hover {
 background-color: rgba(0,0,0,0);
 cursor: pointer;
 }
